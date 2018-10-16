@@ -1,0 +1,163 @@
+#root {
+  display: grid;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  grid-template-rows: 100px auto;
+  grid-template-columns: 350px auto;
+}
+
+.all-tags {
+  display: flex;
+  flex-flow: row wrap;
+  grid-column: 1 / span 3;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.card-details {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  margin: 5px;
+}
+
+.card-title {
+  grid-column: 1 / span 3;
+  text-align: center;
+  font-weight: bold;
+  margin: 2px;
+}
+
+.image {  
+  display: block;
+  grid-column: 1 / span 3;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 250px;
+  max-width: 150px;
+  width: 50%;  
+}
+
+.options-div {
+  grid-column: 1;
+  grid-row: 2;
+  margin-bottom: 10px; 
+}
+
+.results-div {
+  display: grid;
+  grid-column: 2;
+  grid-column: 2;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 15px 15px;
+  margin: 10px;
+}
+
+.results-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 27px 27px;;
+  margin-left: 10px;
+}
+
+.results-info-text {
+  grid-column: 1 / span 2;
+}
+
+.search-button {
+  border-radius: 5px;
+  font-size: larger;
+  height: 55px;
+  margin-left: 10px;
+  width: 55px;
+}
+
+.search-div {
+  display: flex;
+  grid-column: 1 / span 2;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.search-term {
+  border-radius: 5px;
+  font-size: x-large;
+  height: 50px;
+  width: 500px;
+}
+
+.tp-bouchon {
+  background-color: rgba(61, 61, 61, 0.712);
+  border-radius: 5px;
+  margin: 2px; 
+}
+
+.tp-bouchon-text {
+  color: white;
+  font-size: smaller;
+  grid-column: 1 / span 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.tp-category {
+  background-color: rgba(255, 255, 0, 0.712);
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.tp-category-text {
+  background-color: rgba(255, 255, 0, 0.712);
+  color: black;
+  font-size: smaller;
+  grid-column: 1 / span 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.tp-millesime {
+  background-color: rgba(255, 0, 0, 0.575);
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.tp-millesime-text {
+  color: white;
+  font-size: smaller;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.tp-pays {
+  background-color: rgba(36, 39, 187, 0.575);
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.tp-pays-text {
+  color: white;
+  font-size: smaller;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.tp-producteur {
+  background-color: rgba(18, 151, 25, 0.575);
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.tp-producteur-text {
+  color: white;
+  font-size: smaller;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+
